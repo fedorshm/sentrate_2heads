@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-js2jd2h(hqax_w4tr&wotma=o0n=s$a-x46bpslcl#s4_8$l7c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sentrate-2heads.vercel.app']
+ALLOWED_HOSTS = ['sentrate-2heads.vercel.app', 'sentrate-2heads-hrd8axu47-feds-projects-82dc838c.vercel.app']
 
 
 # Application definition
