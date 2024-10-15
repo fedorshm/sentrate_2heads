@@ -1,0 +1,16 @@
+<form method="post">
+    {% csrf_token %}
+    <textarea name="text" rows="4" cols="50" placeholder="Type your text here"></textarea><br>
+    <button type="submit">Classify</button>
+</form>
+
+{% if sentiment_scores %}
+    <h2>Sentiment Scores:</h2>
+    <p>{{ sentiment_scores }}</p>
+{% endif %}
+
+{% if top_3_scores %}
+    <h2>Top-3 Ratings:</h2>
+    <p>{{ top_3_scores }}</p>
+{% endif %}
+  
